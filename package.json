@@ -27,8 +27,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx,json,css}": [
-      "npm run lint:fix",
+    "src/**/*.{ts,tsx}": [
+      "prettier --write",
       "git add"
     ]
   },
