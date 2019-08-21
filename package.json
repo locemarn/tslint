@@ -28,7 +28,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx,json,css}": [
-      "yarn lint:fix",
+      "npm run lint:fix",
       "git add"
     ]
   },
