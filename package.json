@@ -21,10 +21,7 @@
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx,json,css}": [
-      "yarn lint:fix",
-      "git add"
-    ]
+    "git add": "yarn lint:fix"
   },
   "husky": {
     "hooks": {
