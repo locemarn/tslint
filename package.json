@@ -27,7 +27,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "yarn lint",
+      "eslint './src/**/*.{ts,tsx}'",
       "git add"
     ]
   },
