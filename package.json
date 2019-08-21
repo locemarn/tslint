@@ -22,13 +22,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn lint:fix"
     }
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "prettier --write",
-      "git add"
+      "git add ."
     ]
   },
   "eslintConfig": {
